@@ -8,9 +8,9 @@ class Homepage extends React.Component {
       <div className="body">
         <img src={"https://i.pinimg.com/originals/20/96/a8/2096a814ec36007159260d1e8de5b6ae.jpg"} className="App-logo" alt="logo" />
         <p>
-          body text
+          Welcome to my website
         </p>
-        <Link to = "/website/pagetwo" >
+        <Link to = "/website/placeholderPage" >
           Go to other page
         </Link>
       </div>

@@ -1,0 +1,10 @@
+.nav-bar {
+    background-color: #cccccc !important;
+}
+
+.right-items {
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: auto;
+    align-items: flex-end;
+}

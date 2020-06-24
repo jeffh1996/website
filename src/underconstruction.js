@@ -1,12 +1,12 @@
 import React from 'react';
 
-class testPage extends React.Component {
+class placeholderPage extends React.Component {
   render() {
     return (
       <div className="testPage">
         <div className="body">
           <p>
-            this is the second page
+            This page is under construction or does not exist :(
           </p>
         </div>
       </div>
@@ -14,4 +14,4 @@ class testPage extends React.Component {
   }
 }
 
-export default testPage;
+export default placeholderPage;
