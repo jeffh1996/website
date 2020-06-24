@@ -14,8 +14,11 @@ class Header extends React.Component {
           </Link>
         </span>
         <span className="right-items">
-          <Link to = "/about" >
-            About
+          <Link to = "/projects" className="right-items">
+            Projects
+          </Link>
+          <Link to = "/about" className="right-items">
+            About Me
           </Link>
         </span>
         </Toolbar>
