@@ -1,9 +1,10 @@
 import React from 'react';
 import { Router, Route, Switch } from "react-router-dom";
-import Header from './header.js';
-import placeholderPage from './underconstruction.js';
-import history from './history';
-import Homepage from './homePage.js'
+import Header from './components/header.js';
+import placeholderPage from './components/underconstruction.js';
+import history from './components/history';
+import Homepage from './components/homePage.js'
+import aboutPage from './components/about.js'
 import './App.css';
 
 class App extends React.Component {
@@ -14,6 +15,7 @@ class App extends React.Component {
           <Header/>
           <Switch>
             <Route path="/website" exact component={Homepage} />
+            <Route path="/about" exact component={aboutPage} />
             <Route path="/website/placeholder" exact component={placeholderPage} />
             <Route path="*" component={placeholderPage} />
           </Switch>
